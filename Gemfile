@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.1'
 gem 'bootstrap-sass', '2.0.0'
-gem 'bcrypt-ruby', '3.0.1'
+gem 'bcrypt-ruby', '3.0.1' # password encryptie
 gem 'faker', '1.0.1'
 gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.5'
@@ -12,7 +12,7 @@ gem 'bootstrap-will_paginate', '0.0.5'
 
 group :development do
 	gem 'sqlite3'
-	gem 'annotate', '~> 2.4.1.beta'
+	gem 'annotate', '~> 2.4.1.beta' # Schema information comment boven de model
 end
 
 # Gems used only for assets and not required
